@@ -214,6 +214,7 @@ footer p{
 
 @media screen and (min-width: 768px){
     
+
     /* Navegação */
 
     nav{
@@ -226,6 +227,12 @@ footer p{
         width: 70%;
     }
 
+    nav ul li a:hover{
+        color: #191970;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
 
     /* Cabeçalho */
 
@@ -235,6 +242,11 @@ footer p{
         justify-content: center;
     }
 
+    .botao:hover{
+        color: #191970;
+        background-color: #fff;
+        border-radius: 3px;
+    }
 
     /* Sobre */
 
@@ -245,6 +257,10 @@ footer p{
             min-height: 250px;
     }
 
+    #sobre .botao:hover{
+        background-color: #3e3eec;
+        color: #f1f1f1;
+    }
 
     /* Serviços */
 
@@ -267,7 +283,6 @@ footer p{
         padding: 0 10px;
     }
 
-
      /* Fotos */
 
     #fotos{
@@ -283,7 +298,6 @@ footer p{
     #fotos img{
         width: 33.3333333%;
     }
-
 
      /* Fotos */
 
